@@ -1,7 +1,44 @@
 h1{
-   Text-align: center;
-   font-size: 20px;
-   background: #FFFFFF;
-   }
+	background: #FFFFFF;
+	text-align: center;
+	font-size: : 20px;
+	padding: 30px;
+}
+*{
+	box-sizing: border-box;
+}
+div{
+	display: inline-block;
+	border:3px solid #000000;
+    float: left;
+    width:30%;
+    margin: 10px;
+    background-color: #808080;
+}
+h2{
+	display: inline-block;
+    text-align: center;
+    border:3px solid #000000;
+    border-top: 3px;
+    border-right: 3px;
+    margin-top: 0px;
+    float: right;
+    width: 35%;
+    padding: 5px;
+}
+section{
+	padding: 50px 10px 15px 10px;
+	text-align: left;
+}
+.Chicken{
+	background: #F08080; 
+}
+.Beef{
+	background: #DC143C; 
+	color: #FFFFFF;
+}
+.Sushi{
+	background: #FFFACD;
+}
    
    
